@@ -1,0 +1,26 @@
+/* This is a comment */
+
+/* This
+is a 
+multi-line
+comment */
+
+/* selected tag {
+    proerty: value;
+} */
+
+h1 {
+    color: blue;
+}
+
+li {
+    color: rgb(69, 114, 138);
+}
+
+p {
+    color: #dbdb16;
+}
+
+h4 {
+    color: rgba(69, 114, 138, 0.1)
+}
