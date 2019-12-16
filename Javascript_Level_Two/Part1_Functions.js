@@ -40,15 +40,15 @@ hello()
 
 // EXAMPLE
 function helloYou(name){
-    console.log("hello "+name);
+    console.log("hello " + name);
 }
 helloYou("Jose")
 
 // EXAMPLE
-function addNum(num1,num2){
-    console.log(num1+num2);
+function addNum(num1, num2){
+    console.log(num1 + num2);
 }
-addNum(30,20)
+addNum(30, 20)
 
 /////////////////////
 // Default values //
@@ -61,8 +61,8 @@ addNum(30,20)
 // for example:
 
 // EXAMPLE
-function helloSomeone(name="Frankie"){
-    console.log("Hello "+name);
+function helloSomeone(name = "Frankie"){
+    console.log("Hello " + name);
 }
 
 helloSomeone()
@@ -77,8 +77,8 @@ helloSomeone()
 // EXAMPLE
 
 // Without Return
-function formal(name="Sam",title="Sir"){
-    console.log(title+" "+name)
+function formal(name = "Sam", title = "Sir"){
+    console.log(title + " " + name)
 }
 
 //
@@ -87,12 +87,12 @@ function formal(name="Sam",title="Sir"){
 
 
 // With a return
-function formal(name="Sam",title="Sir"){
-    return title+" "+name;
+function formal(name = "Sam", title = "Sir"){
+    return title + " " + name;
 }
 
 //
-"Welcome "+formal()
+"Welcome " + formal()
 //
 
 var result = formal()
@@ -109,7 +109,7 @@ var result = formal()
 // EXAMPLE
 
 // Multiplies input by 5
-function times5(numInput) {
+function times5 (numInput) {
   var result = numInput * 5
   return result
 }

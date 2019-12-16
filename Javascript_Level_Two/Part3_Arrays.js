@@ -117,7 +117,7 @@ arr.forEach(alert);
 
 // Let's show another example:
 function awesomeAdder(name){
-  console.log(name+" is awesome")
+  console.log(name + " is awesome")
 }
 
 var topics = ["python",'djang','science']
