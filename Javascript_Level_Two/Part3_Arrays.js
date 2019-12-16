@@ -120,6 +120,6 @@ function awesomeAdder(name){
   console.log(name + " is awesome")
 }
 
-var topics = ["python",'djang','science']
+var topics = ["python", 'djang', 'science']
 
 topics.forEach(awesomeAdder);
