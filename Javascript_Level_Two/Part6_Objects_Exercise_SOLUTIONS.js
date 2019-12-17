@@ -74,3 +74,5 @@ var employee = {
     console.log(this.name.split(" ")[1]);
   }
 }
+
+
